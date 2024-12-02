@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "day1": "node dist/day1/part1 && node dist/day1/part2"
+    "all": "node dist/day1/part1 && node dist/day1/part2 && node dist/day2/part1 && node dist/day2/part2",
+    "day1": "node dist/day1/part1 && node dist/day1/part2",
+    "day2": "node dist/day2/part1 && node dist/day2/part2"
   },
   "keywords": [],
   "author": "",

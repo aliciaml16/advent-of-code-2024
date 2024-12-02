@@ -18,8 +18,8 @@ To run a day:
 npm run day<number>
 ```
 
-For example
+To run all days:
 
 ```terminal
-npm run day1
+npm run all
 ```
