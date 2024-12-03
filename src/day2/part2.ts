@@ -26,29 +26,27 @@ function checkAllReports() {
 
 function checkPartialReports(report: number[]) {
     const fullReport = report;
-    let safeReport = false;
     for (let i = 0; i < report.length; i++) {
         const partialReport = [
             ...fullReport.slice(0, i),
             ...fullReport.slice(i + 1)
         ];
 
-        if (safeReport === true) {
-            part2result++;
-            safeReport = false;
-            break;
-        };
-
         const direction = checkInitialDirection(partialReport[0], partialReport[1]);
         const difference = checkInitialDifference(partialReport[0], partialReport[1]);
+
+        let safeReport = true;
         for (let n = 1; n < partialReport.length; n++) {
             const value = partialReport[n];
             const prevValue = partialReport[n - 1];
 
-            if (direction === 'invalid' || difference === 'invalid') break;
-            if (checkLevel(prevValue, value, direction) === false) break;
+            if (direction === 'invalid' || difference === 'invalid') { safeReport = false; break; };
+            if (checkLevel(prevValue, value, direction) === false) { safeReport = false; break; };
+        }
 
-            if (n === partialReport.length - 1) safeReport = true;
+        if (safeReport) {
+            part2result++;
+            break;
         }
     }
 }
