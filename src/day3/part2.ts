@@ -25,4 +25,4 @@ matches?.forEach(value => {
     }
 })
 
-console.log('Day 2, part 2: ', result);
+console.log('Day 3, part 2: ', result);

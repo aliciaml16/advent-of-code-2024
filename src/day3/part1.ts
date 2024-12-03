@@ -19,4 +19,5 @@ matches?.forEach(value => {
     result = result + (firstNumber * secondNumber)
 })
 
-console.log('Day 2, part 1: ', result);
+console.log('Day 3, part 1: ', result);
+console.log('Day 3, part 1: ', result);

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
+    "start": "nodemon --quiet --exec ts-node",
     "day1": "node dist/day1/part1 && node dist/day1/part2",
     "day2": "node dist/day2/part1 && node dist/day2/part2",
     "day3": "node dist/day3/part1 && node dist/day3/part2",
@@ -15,6 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
 }

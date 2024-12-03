@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "src/**/*.ts"
+    ],
+    "ignore": [
+        "dist"
+    ],
+    "ext": "ts",
+    "exec": "ts-node",
+    "quiet": true,
+    "legacy-watch": true
+}
