@@ -20,4 +20,3 @@ matches?.forEach(value => {
 })
 
 console.log('Day 3, part 1: ', result);
-console.log('Day 3, part 1: ', result);

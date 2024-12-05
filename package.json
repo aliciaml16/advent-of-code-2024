@@ -9,7 +9,8 @@
     "day1": "node dist/day1/part1 && node dist/day1/part2",
     "day2": "node dist/day2/part1 && node dist/day2/part2",
     "day3": "node dist/day3/part1 && node dist/day3/part2",
-    "all": "npm run day1 && npm run day2 && npm run day3"
+    "day4": "node dist/day4/part1 && node dist/day4/part2",
+    "all": "node dist/day1/part1 && node dist/day1/part2 && node dist/day2/part1 && node dist/day2/part2 && node dist/day3/part1 && node dist/day3/part2 && node dist/day4/part1 && node dist/day4/part2"
   },
   "keywords": [],
   "author": "",
