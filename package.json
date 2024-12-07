@@ -11,7 +11,8 @@
     "day3": "node dist/day3/part1 && node dist/day3/part2",
     "day4": "node dist/day4/part1 && node dist/day4/part2",
     "day5": "node dist/day5/part1 && node dist/day5/part2",
-    "all": "node dist/day1/part1 && node dist/day1/part2 && node dist/day2/part1 && node dist/day2/part2 && node dist/day3/part1 && node dist/day3/part2 && node dist/day4/part1 && node dist/day4/part2 && node dist/day5/part1 && node dist/day5/part2"
+    "day6": "node dist/day6/part1 && node dist/day6/part2",
+    "all": "node dist/day1/part1 && node dist/day1/part2 && node dist/day2/part1 && node dist/day2/part2 && node dist/day3/part1 && node dist/day3/part2 && node dist/day4/part1 && node dist/day4/part2 && node dist/day5/part1 && node dist/day5/part2 && node dist/day6/part1 && node dist/day6/part2"
   },
   "keywords": [],
   "author": "",
